@@ -183,5 +183,5 @@ plt.show()
 
 Predicted_hourly_load_f = Predicted_PV_f.ravel()
 df = pd.DataFrame(Predicted_hourly_load_f)
-df.to_csv('D:\Optimization\Stochastic_SADMM_Opt\PV_Forecast\PV_hourly_train_forecast_gpu.csv')
+df.to_csv('\path to save the results')
 
