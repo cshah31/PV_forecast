@@ -125,7 +125,7 @@ def summarize_scores(name, score, scores):
 
 
 ## Main part of the code
-PV_dataset = pd.read_csv('D:\Optimization\Stochastic_SADMM_Opt\PV_Forecast\PV_2years_hourly_Data.csv', header=0, infer_datetime_format=True)
+PV_dataset = pd.read_csv('\Path to the PV generation data\', header=0, infer_datetime_format=True)
 data = PV_dataset['PV'].values
 data = data.reshape(len(data),1)
 #########################################################################################################################################################
