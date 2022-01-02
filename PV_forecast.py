@@ -4,6 +4,7 @@ Created on Sat Dec 18 2021 1:30 pm.
 
 @author: cshah
 This code is a proprietary of Chinmay Shah (cshah@alaska.edu). The main function of the code is to forecast generation for monofacial PV panels.
+License: GNU GPL 3.0
 """
 # Import required libraries
 import time
